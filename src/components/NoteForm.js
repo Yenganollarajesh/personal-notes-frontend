@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './NoteForm.css'; // Styling for the form
+import './NoteForm.css'; 
 
 const NoteForm = ({ note, onSave }) => {
     const [title, setTitle] = useState('');

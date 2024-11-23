@@ -1,5 +1,4 @@
 /* App.css */
-
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f7f7f7;
@@ -80,7 +79,7 @@ textarea {
   margin-right: 10px;
 }
 
-/* Media Queries for Responsiveness */
+
 @media (max-width: 768px) {
   .container {
       padding: 15px;
