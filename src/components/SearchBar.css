@@ -1,0 +1,30 @@
+/* SearchBar.css */
+
+input[type="text"] {
+    width: 97%;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    input[type="text"] {
+        padding: 8px;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    input[type="text"] {
+        padding: 6px;
+        font-size: 0.9rem;
+    }
+}

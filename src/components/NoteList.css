@@ -1,0 +1,89 @@
+/* NoteList.css */
+
+.note-list {
+    margin-top: 20px;
+}
+
+.note-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.note-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.note-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.note-card button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.note-card button:hover {
+    background-color: #c30000;
+}
+
+.note-card button.edit {
+    background-color: #007bff;
+}
+
+.note-card button.edit:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .note-card {
+        padding: 15px;
+    }
+
+    .note-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .note-card p {
+        font-size: 0.95rem;
+    }
+
+    .note-card button {
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .note-card {
+        padding: 12px;
+    }
+
+    .note-card h3 {
+        font-size: 1rem;
+    }
+
+    .note-card p {
+        font-size: 0.9rem;
+    }
+
+    .note-card button {
+        padding: 4px 8px;
+        font-size: 0.9rem;
+    }
+}
